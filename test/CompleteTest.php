@@ -12,7 +12,7 @@ use KrzysztofSobolewskiRekrutacjaHRtec\Service\Csv\Utils as CsvUtils;
 use KrzysztofSobolewskiRekrutacjaHRtec\Exception\FieldDoesNotExistException;
 use Feed;
 
-final class WriterTest extends TestCase
+final class CompleteTest extends TestCase
 {
     private $outputPath = TEST_DIR . DIRECTORY_SEPARATOR . 'outputTest.csv';
     private $feedUrl = "http://feeds.bbci.co.uk/news/rss.xml";
