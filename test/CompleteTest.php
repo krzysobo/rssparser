@@ -10,7 +10,6 @@ use KrzysztofSobolewskiRekrutacjaHRtec\Service\Rss\Converter;
 use KrzysztofSobolewskiRekrutacjaHRtec\Service\Csv\Writer;
 use KrzysztofSobolewskiRekrutacjaHRtec\Service\Csv\Utils as CsvUtils;
 use KrzysztofSobolewskiRekrutacjaHRtec\Exception\FieldDoesNotExistException;
-use Feed;
 
 final class CompleteTest extends TestCase
 {
