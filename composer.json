@@ -1,0 +1,35 @@
+{
+  "name": "krzysobo/package-rssparser",
+  "description": "RSS parser",
+  "keywords": [
+    "RSS"
+  ],
+  "homepage": "https://github.com/krzysobo/package-rssparser",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krzysztof Sobolewski",
+      "email": "krzysztof.sobolewski@gmail.com",
+      "homepage": "https://github.com/krzysobo",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "dg/rss-php": "^1.4",
+    "phpunit/phpunit": "^9.4",
+    "symfony/console": "^5.1",
+    "monolog/monolog": "^2.1",
+    "symfony/yaml": "^5.1",
+    "ext-simplexml": "^7.3"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "KrzysztofSobolewskiRekrutacjaHRtec\\": [
+        "src"
+      ]
+    }
+  }
+}
